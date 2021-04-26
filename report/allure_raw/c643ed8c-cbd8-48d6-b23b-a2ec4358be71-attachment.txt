@@ -1,0 +1,2 @@
+{'success': '1', 'result': {'weaid': '1', 'days': '2021-04-14', 'week': '星期三', 'cityno': 'beijing', 'citynm': '北京', 'cityid': '101010100', 'temperature': '10℃/10℃', 'temperature_curr': '17℃', 'humidity': '21%', 'aqi': '86', 'weather': '多云', 'weather_curr': '多云', 'weather_icon': 'http://api.k780.com/upload/weather/d/1.gif', 'weather_icon1': '', 'wind': '西南风', 'winp': '2级', 'temp_high': '10', 'temp_low': '10', 'temp_curr': '17', 'humi_high': '0', 'humi_low': '0', 'weatid': '2', 'weatid1': '', 'windid': '5', 'winpid': '2', 'weather_iconid': '1'}}
+after py file

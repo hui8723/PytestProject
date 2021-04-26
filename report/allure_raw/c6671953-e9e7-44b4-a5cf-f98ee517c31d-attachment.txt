@@ -1,0 +1,338 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.8.2, pytest-6.2.1, py-1.10.0, pluggy-0.13.1 -- /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+cachedir: .pytest_cache
+baseurl: http://www.example.com
+rootdir: /Users/aviva.tang/PycharmProjects/PytestProject, configfile: pytest.ini
+plugins: assume-2.4.2, base-url-1.4.2, xdist-2.2.0, forked-1.3.0, allure-pytest-2.8.29
+gw0 I / gw1 I / gw2 I / gw3 I
+[gw0] darwin Python 3.8.2 cwd: /Users/aviva.tang/PycharmProjects/PytestProject
+[gw1] darwin Python 3.8.2 cwd: /Users/aviva.tang/PycharmProjects/PytestProject
+[gw2] darwin Python 3.8.2 cwd: /Users/aviva.tang/PycharmProjects/PytestProject
+[gw3] darwin Python 3.8.2 cwd: /Users/aviva.tang/PycharmProjects/PytestProject
+[gw0] Python 3.8.2 (default, Mar 11 2020, 00:29:30)  -- [Clang 10.0.0 (clang-1000.11.45.5)]
+[gw1] Python 3.8.2 (default, Mar 11 2020, 00:29:30)  -- [Clang 10.0.0 (clang-1000.11.45.5)]
+[gw2] Python 3.8.2 (default, Mar 11 2020, 00:29:30)  -- [Clang 10.0.0 (clang-1000.11.45.5)]
+[gw3] Python 3.8.2 (default, Mar 11 2020, 00:29:30)  -- [Clang 10.0.0 (clang-1000.11.45.5)]
+gw0 [36] / gw1 [36] / gw2 [36] / gw3 [36]
+
+scheduling tests via LoadScheduling
+
+test_a.py::test_bbb 
+test/test_allure.py::TestEdit::test_2 
+test/test_allure.py::TestEdit::test_1 
+test/test_baseurl.py::test_base_url 
+[gw1] [  2%] PASSED test/test_allure.py::TestEdit::test_1 
+[gw2] [  5%] PASSED test/test_allure.py::TestEdit::test_2 
+test/test_demo.py::test_B[1-2] 
+test/test_demo.py::test_B[10-20] 
+[gw1] [  8%] SKIPPED test/test_demo.py::test_B[1-2] 
+[gw2] [ 11%] SKIPPED test/test_demo.py::test_B[10-20] 
+test/test_demo.py::test_F 
+test/test_demo.py::test_weather 
+[gw1] [ 13%] PASSED test/test_demo.py::test_F 
+test/test_demo.py::test_settings 
+[gw1] [ 16%] FAILED test/test_demo.py::test_settings 
+test/test_file.py::test_csv_file 
+[gw1] [ 19%] FAILED test/test_file.py::test_csv_file 
+test/test_from_csv.py::TestFromCsv::test_from_csv 
+[gw1] [ 22%] PASSED test/test_from_csv.py::TestFromCsv::test_from_csv 
+test/test_logging.py::test_log 
+[gw1] [ 25%] PASSED test/test_logging.py::test_log 
+test/test_mark.py::test_web 
+[gw1] [ 27%] PASSED test/test_mark.py::test_web 
+test/test_mark.py::test_smoke 
+[gw3] [ 30%] FAILED test/test_baseurl.py::test_base_url 
+[gw1] [ 33%] PASSED test/test_mark.py::test_smoke 
+test/test_mark.py::test_secure 
+test/test_demo.py::test_C 
+[gw1] [ 36%] FAILED test/test_mark.py::test_secure 
+test/test_order.py::test_last 
+[gw1] [ 38%] PASSED test/test_order.py::test_last 
+test/test_order.py::test_assume 
+[gw2] [ 41%] PASSED test/test_demo.py::test_weather 
+test/test_file.py::test_json_file 
+[gw3] [ 44%] XFAIL test/test_demo.py::test_C 
+test/test_order.py::test_one 
+[gw3] [ 47%] PASSED test/test_order.py::test_one 
+test/test_schema.py::test_schema 
+[gw1] [ 50%] FAILED test/test_order.py::test_assume 
+test/test_pystache.py::test_mustache 
+[gw1] [ 52%] PASSED test/test_pystache.py::test_mustache 
+test/test_xdist.py::test_xdist[1] 
+[gw3] [ 55%] FAILED test/test_schema.py::test_schema 
+test/test_xdist.py::test_xdist[0] 
+[gw2] [ 58%] FAILED test/test_file.py::test_json_file 
+test/test_pystache.py::test_chevron 
+[gw2] [ 61%] PASSED test/test_pystache.py::test_chevron 
+test/test_xdist.py::test_xdist[4] 
+[gw1] [ 63%] PASSED test/test_xdist.py::test_xdist[1] 
+test/test_xdist.py::test_xdist[2] 
+[gw3] [ 66%] PASSED test/test_xdist.py::test_xdist[0] 
+test/test_xdist.py::test_xdist[3] 
+[gw2] [ 69%] PASSED test/test_xdist.py::test_xdist[4] 
+test/test_xdist.py::test_xdist[5] 
+[gw1] [ 72%] PASSED test/test_xdist.py::test_xdist[2] 
+test/test_xdist.py::test_xdist[6] 
+[gw3] [ 75%] PASSED test/test_xdist.py::test_xdist[3] 
+test/test_xdist.py::test_xdist[7] 
+[gw2] [ 77%] PASSED test/test_xdist.py::test_xdist[5] 
+test/test_xdist.py::test_xdist[8] 
+[gw1] [ 80%] PASSED test/test_xdist.py::test_xdist[6] 
+test/test_xdist.py::test_xdist[9] 
+[gw3] [ 83%] PASSED test/test_xdist.py::test_xdist[7] 
+test/testini.py::testA::testrole 
+[gw3] [ 86%] FAILED test/testini.py::testA::testrole 
+[gw2] [ 88%] PASSED test/test_xdist.py::test_xdist[8] 
+[gw1] [ 91%] PASSED test/test_xdist.py::test_xdist[9] 
+
+=================================== FAILURES ===================================
+________________________________ test_settings _________________________________
+[gw1] darwin -- Python 3.8.2 /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+
+    def test_settings():
+        print(settings.DATABASE['host'])
+>       assert 1 == 2
+E       assert 1 == 2
+E         +1
+E         -2
+
+test/test_demo.py:55: AssertionError
+----------------------------- Captured stdout call -----------------------------
+192.168.29.174
+--------------------------- Captured stdout teardown ---------------------------
+after py file
+________________________________ test_csv_file _________________________________
+[gw1] darwin -- Python 3.8.2 /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+
+    def test_csv_file():
+        # with open('../data/test.csv', 'r') as fp:
+        #     data = []
+        #     try:
+        #         reader = csv.reader(fp)
+        #         headers = next(reader)
+        #         for row in reader:
+        #             data.append(row)
+        #     except Exception as e:
+        #         print('Exception is %s'%e)
+        #     finally:
+        #         fp.close()
+>       data = get_csv_datas()
+
+test/test_file.py:29: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+common/get_csv_data.py:22: in get_csv_datas
+    datas = get_csv_data('../data/test.csv')
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+filePath = '../data/test.csv'
+
+    def get_csv_data(filePath):
+>       with open(filePath, 'r') as fp:
+E       FileNotFoundError: [Errno 2] No such file or directory: '../data/test.csv'
+
+common/get_csv_data.py:5: FileNotFoundError
+________________________________ test_base_url _________________________________
+[gw3] darwin -- Python 3.8.2 /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+
+base_url = None
+
+    def test_base_url(base_url):
+>       print("基础url：" + base_url)
+E       TypeError: can only concatenate str (not "NoneType") to str
+
+test/test_baseurl.py:3: TypeError
+---------------------------- Captured stdout setup -----------------------------
+所有模块执行前运行
+_________________________________ test_secure __________________________________
+[gw1] darwin -- Python 3.8.2 /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+
+    @pytest.mark.secure
+    def test_secure():
+        print("secure test")
+>       assert 2!=2
+E       assert 2 != 2
+
+test/test_mark.py:25: AssertionError
+----------------------------- Captured stdout call -----------------------------
+secure test
+_________________________________ test_assume __________________________________
+[gw1] darwin -- Python 3.8.2 /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+
+tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None
+
+    def reraise(tp, value, tb=None):
+        try:
+            if value is None:
+                value = tp()
+            if value.__traceback__ is not tb:
+>               raise value.with_traceback(tb)
+E               pytest_assume.plugin.FailedAssumption: 
+E               2 Failed Assumptions:
+E               
+E               test/test_order.py:17: AssumptionFailure
+E               >>	pytest.assume(2==0)
+E               AssertionError: assert False
+E               
+E               test/test_order.py:18: AssumptionFailure
+E               >>	pytest.assume(1==2)
+E               AssertionError: assert False
+
+/usr/local/Cellar/python@3.8/3.8.2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/six.py:702: FailedAssumption
+--------------------------- Captured stdout teardown ---------------------------
+FAILED                                   [ 33%]
+_________________________________ test_schema __________________________________
+[gw3] darwin -- Python 3.8.2 /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+
+    def test_schema():
+        # data = {"id":520,"name":"hello first blog","price":25.5}
+        data = {"id":-1,"name":"hello first blog","price":25.5}
+        schema = {"$schema":"http://json-schema.org/draft-04/schema#",
+                  "title":"BookInfo",
+                  "description":"some information about book",
+                  "type":"object",
+                  "properties": {"id": {"description":"The unique identifier for a book","type":"integer","minimum":1},
+                                 "name": {"description":"Name of the book","type":"string","maxLength":50,"minLength":1},
+                                 "price": {"type":"number","minimum":0,"exclusiveMinimum":True}},
+                  "required": ["id","name","price"]}
+>       validate(data,schema)
+
+test/test_schema.py:14: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+instance = {'id': -1, 'name': 'hello first blog', 'price': 25.5}
+schema = {'$schema': 'http://json-schema.org/draft-04/schema#', 'description': 'some information about book', 'properties': {'i...ring'}, 'price': {'exclusiveMinimum': True, 'minimum': 0, 'type': 'number'}}, 'required': ['id', 'name', 'price'], ...}
+cls = <class 'jsonschema.validators.create.<locals>.Validator'>, args = ()
+kwargs = {}
+validator = <jsonschema.validators.create.<locals>.Validator object at 0x1104e0370>
+error = <ValidationError: '-1 is less than the minimum of 1'>
+
+    def validate(instance, schema, cls=None, *args, **kwargs):
+        """
+        Validate an instance under the given schema.
+    
+            >>> validate([2, 3, 4], {"maxItems": 2})
+            Traceback (most recent call last):
+                ...
+            ValidationError: [2, 3, 4] is too long
+    
+        :func:`validate` will first verify that the provided schema is
+        itself valid, since not doing so can lead to less obvious error
+        messages and fail in less obvious or consistent ways.
+    
+        If you know you have a valid schema already, especially if you
+        intend to validate multiple instances with the same schema, you
+        likely would prefer using the `IValidator.validate` method directly
+        on a specific validator (e.g. ``Draft7Validator.validate``).
+    
+    
+        Arguments:
+    
+            instance:
+    
+                The instance to validate
+    
+            schema:
+    
+                The schema to validate with
+    
+            cls (IValidator):
+    
+                The class that will be used to validate the instance.
+    
+        If the ``cls`` argument is not provided, two things will happen
+        in accordance with the specification. First, if the schema has a
+        :validator:`$schema` property containing a known meta-schema [#]_
+        then the proper validator will be used. The specification recommends
+        that all schemas contain :validator:`$schema` properties for this
+        reason. If no :validator:`$schema` property is found, the default
+        validator class is the latest released draft.
+    
+        Any other provided positional and keyword arguments will be passed
+        on when instantiating the ``cls``.
+    
+        Raises:
+    
+            `jsonschema.exceptions.ValidationError` if the instance
+                is invalid
+    
+            `jsonschema.exceptions.SchemaError` if the schema itself
+                is invalid
+    
+        .. rubric:: Footnotes
+        .. [#] known by a validator registered with
+            `jsonschema.validators.validates`
+        """
+        if cls is None:
+            cls = validator_for(schema)
+    
+        cls.check_schema(schema)
+        validator = cls(schema, *args, **kwargs)
+        error = exceptions.best_match(validator.iter_errors(instance))
+        if error is not None:
+>           raise error
+E           jsonschema.exceptions.ValidationError: -1 is less than the minimum of 1
+E           
+E           Failed validating 'minimum' in schema['properties']['id']:
+E               {'description': 'The unique identifier for a book',
+E                'minimum': 1,
+E                'type': 'integer'}
+E           
+E           On instance['id']:
+E               -1
+
+/usr/local/Cellar/python@3.8/3.8.2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/jsonschema/validators.py:934: ValidationError
+________________________________ test_json_file ________________________________
+[gw2] darwin -- Python 3.8.2 /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+
+    def test_json_file():
+        print(os.getcwd())
+>       with open('../data/test.json', 'r') as fp:
+E       FileNotFoundError: [Errno 2] No such file or directory: '../data/test.json'
+
+test/test_file.py:10: FileNotFoundError
+----------------------------- Captured stdout call -----------------------------
+/Users/aviva.tang/PycharmProjects/PytestProject
+________________________________ testA.testrole ________________________________
+[gw3] darwin -- Python 3.8.2 /Users/aviva.tang/PycharmProjects/PytestProject/env/bin/python
+
+self = <test.testini.testA object at 0x1104ca850>
+
+    def testrole(self):
+    
+>       assert 1==2
+E       assert 1 == 2
+E         +1
+E         -2
+
+test/testini.py:7: AssertionError
+--------------------------- Captured stdout teardown ---------------------------
+所有模块执行后运行
+=============================== warnings summary ===============================
+test/test_order.py:4
+test/test_order.py:4
+test/test_order.py:4
+test/test_order.py:4
+  /Users/aviva.tang/PycharmProjects/PytestProject/test/test_order.py:4: PytestUnknownMarkWarning: Unknown pytest.mark.run - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.run(order=1)
+
+test/test_order.py:9
+test/test_order.py:9
+test/test_order.py:9
+test/test_order.py:9
+  /Users/aviva.tang/PycharmProjects/PytestProject/test/test_order.py:9: PytestUnknownMarkWarning: Unknown pytest.mark.last - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/mark.html
+    @pytest.mark.last
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+=========================== short test summary info ============================
+FAILED test/test_demo.py::test_settings - assert 1 == 2
+FAILED test/test_file.py::test_csv_file - FileNotFoundError: [Errno 2] No suc...
+FAILED test/test_baseurl.py::test_base_url - TypeError: can only concatenate ...
+FAILED test/test_mark.py::test_secure - assert 2 != 2
+FAILED test/test_order.py::test_assume - pytest_assume.plugin.FailedAssumption: 
+FAILED test/test_schema.py::test_schema - jsonschema.exceptions.ValidationErr...
+FAILED test/test_file.py::test_json_file - FileNotFoundError: [Errno 2] No su...
+FAILED test/testini.py::testA::testrole - assert 1 == 2
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! KeyboardInterrupt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+/usr/local/Cellar/python@3.8/3.8.2/Frameworks/Python.framework/Versions/3.8/lib/python3.8/threading.py:306: KeyboardInterrupt
+(to show a full traceback on KeyboardInterrupt use --full-trace)
+== 8 failed, 22 passed, 2 skipped, 1 xfailed, 8 warnings in 96.21s (0:01:36) ===

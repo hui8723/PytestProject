@@ -1,0 +1,9 @@
+{
+    "name":"LL",
+    "department": [
+        532
+    ],
+    "position": "测试工程师",
+    "mobile": "12345678901",
+    "gender": "1"
+}

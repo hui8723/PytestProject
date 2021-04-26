@@ -1,0 +1,3 @@
+ERROR    root:test_logging.py:7 error
+CRITICAL root:test_logging.py:8 critical
+WARNING  root:test_logging.py:9 warning
